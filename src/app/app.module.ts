@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { MenuPage } from '../pages/menu/menu';
+import { DishdetailPage } from './../pages/dishdetail/dishdetail';
 import { ContactPage } from '../pages/contact/contact';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -23,6 +24,7 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
     HomePage,
     AboutPage,
     MenuPage,
+    DishdetailPage,
     ContactPage
   ],
   imports: [
@@ -36,6 +38,7 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
     HomePage,
     AboutPage,
     MenuPage,
+    DishdetailPage,
     ContactPage
   ],
   providers: [

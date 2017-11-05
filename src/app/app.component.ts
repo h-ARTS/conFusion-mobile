@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { MenuPage } from '../pages/menu/menu';
+import { FavoritesPage } from './../pages/favorites/favorites';
 import { ContactPage } from '../pages/contact/contact';
 
 @Component({
@@ -26,6 +27,7 @@ export class MyApp {
       { title: 'Home', component: HomePage, icon: 'home' },
       { title: 'About Us', component: AboutPage, icon: 'information-circle' },
       { title: 'Menu', component: MenuPage, icon: 'list-box' },
+      { title: 'My Favorites', component: FavoritesPage, icon: 'heart' },
       { title: 'Contact Us', component: ContactPage, icon: 'contact' }
     ];
 

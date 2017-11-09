@@ -29,7 +29,7 @@ FavoritesPageModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__favorites__["a" /* FavoritesPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__favorites__["a" /* FavoritesPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__favorites__["a" /* FavoritesPage */]),
         ],
     })
 ], FavoritesPageModule);

@@ -29,7 +29,7 @@ AboutPageModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__about__["a" /* AboutPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__about__["a" /* AboutPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__about__["a" /* AboutPage */]),
         ],
     })
 ], AboutPageModule);

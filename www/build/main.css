@@ -36439,6 +36439,10 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+.background-pale {
+  background-color: #d1c4e9;
+}
+
 page-home .btn-facebook {
   color: #fff !important;
   background-color: #3b5998 !important;

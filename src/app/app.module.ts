@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { baseURL } from './../shared/baseurl';
+import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -13,6 +14,7 @@ import { FavoritesPage } from './../pages/favorites/favorites';
 import { ContactPage } from '../pages/contact/contact';
 import { ReservationPage } from './../pages/reservation/reservation';
 import { CommentPage } from './../pages/comment/comment';
+import { LoginPage } from './../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,12 +34,14 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     FavoritesPage,
     ContactPage,
     ReservationPage,
-    CommentPage
+    CommentPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -49,7 +53,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     FavoritesPage,
     ContactPage,
     ReservationPage,
-    CommentPage
+    CommentPage,
+    LoginPage
   ],
   providers: [
     StatusBar,

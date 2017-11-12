@@ -2,3 +2,5 @@ node_modules
 .vscode/
 .sourcemaps
 www
+platforms
+plugins
